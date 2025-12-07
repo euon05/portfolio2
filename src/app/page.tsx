@@ -30,28 +30,42 @@ export default function Home() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.4 }}
       >
-        Next.js로 만든 나만의 공간 ✨
+        Next.js로 만든 나만의 공간
       </motion.p>
 
       <motion.div
-        className="flex flex-row items-center gap-4"
+        className="flex flex-row justify-center gap-6"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.8 }}
       >
         <Link
           href="/about"
-          className="mb-4 px-6 py-3 bg-blue-300
-          hover:bg-blue-400 text-white rounded-full text-lg shadow-lg transition-transform transform hover:scale-105"
+          className="px-6 py-3 bg-blue-400
+          hover:bg-blue-600 text-white rounded-full text-lg shadow-lg transition-transform transform hover:scale-105"
         >
           About
         </Link>
         <Link
           href="/portfolio"
-          className="mb-4 px-6 py-3 bg-blue-300
-          hover:bg-blue-400 text-white rounded-full text-lg shadow-lg transition-transform transform hover:scale-105"
+          className="px-6 py-3 bg-blue-400
+          hover:bg-blue-600 text-white rounded-full text-lg shadow-lg transition-transform transform hover:scale-105"
         >
           Portfolio
+        </Link>
+        <Link
+          href="/team"
+          className="px-6 py-3 bg-blue-400
+          hover:bg-blue-600 text-white rounded-full text-lg shadow-lg transition-transform transform hover:scale-105"
+        >
+          Team
+        </Link>
+        <Link
+          href="/board" // <-- 게시판 경로 추가
+          className="px-6 py-3 bg-blue-400
+          hover:bg-blue-600 text-white rounded-full text-lg shadow-lg transition-transform transform hover:scale-105"
+        >
+          Add{' '}
         </Link>
       </motion.div>
     </main>

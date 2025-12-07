@@ -32,7 +32,7 @@ export default function About() {
 
           <div className="w-full max-w-md bg-white shadow-lg rounded-xl p-4 text-center">
             <h3 className="text-lg font-semibold text-gray-700">
-              🌐 vercel 배포 주소
+              🌐 포폴 배포 주소
             </h3>
             <a
               href="https://clerk-app-ten.vercel.app/"
