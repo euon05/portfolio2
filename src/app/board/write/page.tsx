@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 
-const API_URL = 'http://localhost:4000/api/posts'
+const API_URL = 'https://portfolio2-kappa-brown.vercel.app/api/posts'
 
 export default function WritePage() {
   const [title, setTitle] = useState('')

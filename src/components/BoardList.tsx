@@ -12,7 +12,7 @@ interface Post {
   createdAt: string
 }
 
-const API_URL = 'http://localhost:4000/api/posts' // 백엔드 주소
+const API_URL = 'https://portfolio2-kappa-brown.vercel.app/api/posts'
 
 const BoardList: React.FC = () => {
   const [posts, setPosts] = useState<Post[]>([])

@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 
-const API_BASE_URL = 'http://localhost:4000/api/posts'
+const API_BASE_URL = 'https://portfolio2-kappa-brown.vercel.app/api/posts'
 
 interface Post {
   title: string

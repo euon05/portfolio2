@@ -7,7 +7,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/navigation' // useRouter 필수
 
 // 서버 API 주소
-const API_BASE_URL = 'http://localhost:4000/api/posts'
+const API_BASE_URL = 'https://portfolio2-kappa-brown.vercel.app/api/posts'
 
 interface Post {
   _id: string // 수정 및 삭제를 위해 ID 필드가 필수입니다.
