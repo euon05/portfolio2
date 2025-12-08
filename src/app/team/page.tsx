@@ -38,7 +38,7 @@ export default function About() {
         <div className="bg-gray-100 p-4 rounded-lg shadow">
           <h3 className="font-semibold mb-2">팀프로젝트</h3>
           <p>웹쇼핑몰</p>
-          <p>링크</p>
+          <p>https://shoppingmall-gamma.vercel.app/</p>
         </div>
       </motion.div>
 

@@ -32,10 +32,10 @@ export default function About() {
 
           <div className="w-full max-w-md bg-white shadow-lg rounded-xl p-4 text-center">
             <h3 className="text-lg font-semibold text-gray-700">
-              🌐 포폴 배포 주소
+              🌐 팀플 배포 주소
             </h3>
             <a
-              href="https://clerk-app-ten.vercel.app/"
+              href="https://shoppingmall-gamma.vercel.app/"
               className="text-blue-300 hover:underline"
               target="_blank"
               rel="noopener noreferrer"
